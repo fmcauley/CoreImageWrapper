@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC10AF11C073E06001F0A53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC10AF01C073E06001F0A53 /* AppDelegate.swift */; };
+		ECC10AF31C073E06001F0A53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC10AF21C073E06001F0A53 /* ViewController.swift */; };
+		ECC10AF61C073E06001F0A53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC10AF41C073E06001F0A53 /* Main.storyboard */; };
+		ECC10AF81C073E06001F0A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC10AF71C073E06001F0A53 /* Assets.xcassets */; };
+		ECC10AFB1C073E07001F0A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC10AF91C073E07001F0A53 /* LaunchScreen.storyboard */; };
+		ECC10B061C073E07001F0A53 /* CorImageWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC10B051C073E07001F0A53 /* CorImageWrapperTests.swift */; };
+		ECC10B111C073E07001F0A53 /* CorImageWrapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC10B101C073E07001F0A53 /* CorImageWrapperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC10B021C073E07001F0A53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC10AE51C073E06001F0A53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC10AEC1C073E06001F0A53;
+			remoteInfo = CorImageWrapper;
+		};
+		ECC10B0D1C073E07001F0A53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC10AE51C073E06001F0A53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC10AEC1C073E06001F0A53;
+			remoteInfo = CorImageWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECC10AED1C073E06001F0A53 /* CorImageWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CorImageWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC10AF01C073E06001F0A53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECC10AF21C073E06001F0A53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECC10AF51C073E06001F0A53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECC10AF71C073E06001F0A53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC10AFA1C073E07001F0A53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECC10AFC1C073E07001F0A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC10B011C073E07001F0A53 /* CorImageWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorImageWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC10B051C073E07001F0A53 /* CorImageWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorImageWrapperTests.swift; sourceTree = "<group>"; };
+		ECC10B071C073E07001F0A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC10B0C1C073E07001F0A53 /* CorImageWrapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorImageWrapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC10B101C073E07001F0A53 /* CorImageWrapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorImageWrapperUITests.swift; sourceTree = "<group>"; };
+		ECC10B121C073E07001F0A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC10AEA1C073E06001F0A53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC10AFE1C073E07001F0A53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC10B091C073E07001F0A53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC10AE41C073E06001F0A53 = {
+			isa = PBXGroup;
+			children = (
+				ECC10AEF1C073E06001F0A53 /* CorImageWrapper */,
+				ECC10B041C073E07001F0A53 /* CorImageWrapperTests */,
+				ECC10B0F1C073E07001F0A53 /* CorImageWrapperUITests */,
+				ECC10AEE1C073E06001F0A53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC10AEE1C073E06001F0A53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC10AED1C073E06001F0A53 /* CorImageWrapper.app */,
+				ECC10B011C073E07001F0A53 /* CorImageWrapperTests.xctest */,
+				ECC10B0C1C073E07001F0A53 /* CorImageWrapperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC10AEF1C073E06001F0A53 /* CorImageWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				ECC10AF01C073E06001F0A53 /* AppDelegate.swift */,
+				ECC10AF21C073E06001F0A53 /* ViewController.swift */,
+				ECC10AF41C073E06001F0A53 /* Main.storyboard */,
+				ECC10AF71C073E06001F0A53 /* Assets.xcassets */,
+				ECC10AF91C073E07001F0A53 /* LaunchScreen.storyboard */,
+				ECC10AFC1C073E07001F0A53 /* Info.plist */,
+			);
+			path = CorImageWrapper;
+			sourceTree = "<group>";
+		};
+		ECC10B041C073E07001F0A53 /* CorImageWrapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC10B051C073E07001F0A53 /* CorImageWrapperTests.swift */,
+				ECC10B071C073E07001F0A53 /* Info.plist */,
+			);
+			path = CorImageWrapperTests;
+			sourceTree = "<group>";
+		};
+		ECC10B0F1C073E07001F0A53 /* CorImageWrapperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC10B101C073E07001F0A53 /* CorImageWrapperUITests.swift */,
+				ECC10B121C073E07001F0A53 /* Info.plist */,
+			);
+			path = CorImageWrapperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC10AEC1C073E06001F0A53 /* CorImageWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC10B151C073E07001F0A53 /* Build configuration list for PBXNativeTarget "CorImageWrapper" */;
+			buildPhases = (
+				ECC10AE91C073E06001F0A53 /* Sources */,
+				ECC10AEA1C073E06001F0A53 /* Frameworks */,
+				ECC10AEB1C073E06001F0A53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CorImageWrapper;
+			productName = CorImageWrapper;
+			productReference = ECC10AED1C073E06001F0A53 /* CorImageWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECC10B001C073E07001F0A53 /* CorImageWrapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC10B181C073E07001F0A53 /* Build configuration list for PBXNativeTarget "CorImageWrapperTests" */;
+			buildPhases = (
+				ECC10AFD1C073E07001F0A53 /* Sources */,
+				ECC10AFE1C073E07001F0A53 /* Frameworks */,
+				ECC10AFF1C073E07001F0A53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC10B031C073E07001F0A53 /* PBXTargetDependency */,
+			);
+			name = CorImageWrapperTests;
+			productName = CorImageWrapperTests;
+			productReference = ECC10B011C073E07001F0A53 /* CorImageWrapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECC10B0B1C073E07001F0A53 /* CorImageWrapperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC10B1B1C073E07001F0A53 /* Build configuration list for PBXNativeTarget "CorImageWrapperUITests" */;
+			buildPhases = (
+				ECC10B081C073E07001F0A53 /* Sources */,
+				ECC10B091C073E07001F0A53 /* Frameworks */,
+				ECC10B0A1C073E07001F0A53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC10B0E1C073E07001F0A53 /* PBXTargetDependency */,
+			);
+			name = CorImageWrapperUITests;
+			productName = CorImageWrapperUITests;
+			productReference = ECC10B0C1C073E07001F0A53 /* CorImageWrapperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC10AE51C073E06001F0A53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Single Focus Software";
+				TargetAttributes = {
+					ECC10AEC1C073E06001F0A53 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					ECC10B001C073E07001F0A53 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = ECC10AEC1C073E06001F0A53;
+					};
+					ECC10B0B1C073E07001F0A53 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = ECC10AEC1C073E06001F0A53;
+					};
+				};
+			};
+			buildConfigurationList = ECC10AE81C073E06001F0A53 /* Build configuration list for PBXProject "CorImageWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC10AE41C073E06001F0A53;
+			productRefGroup = ECC10AEE1C073E06001F0A53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC10AEC1C073E06001F0A53 /* CorImageWrapper */,
+				ECC10B001C073E07001F0A53 /* CorImageWrapperTests */,
+				ECC10B0B1C073E07001F0A53 /* CorImageWrapperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC10AEB1C073E06001F0A53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC10AFB1C073E07001F0A53 /* LaunchScreen.storyboard in Resources */,
+				ECC10AF81C073E06001F0A53 /* Assets.xcassets in Resources */,
+				ECC10AF61C073E06001F0A53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC10AFF1C073E07001F0A53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC10B0A1C073E07001F0A53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC10AE91C073E06001F0A53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC10AF31C073E06001F0A53 /* ViewController.swift in Sources */,
+				ECC10AF11C073E06001F0A53 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC10AFD1C073E07001F0A53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC10B061C073E07001F0A53 /* CorImageWrapperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC10B081C073E07001F0A53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC10B111C073E07001F0A53 /* CorImageWrapperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC10B031C073E07001F0A53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC10AEC1C073E06001F0A53 /* CorImageWrapper */;
+			targetProxy = ECC10B021C073E07001F0A53 /* PBXContainerItemProxy */;
+		};
+		ECC10B0E1C073E07001F0A53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC10AEC1C073E06001F0A53 /* CorImageWrapper */;
+			targetProxy = ECC10B0D1C073E07001F0A53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECC10AF41C073E06001F0A53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC10AF51C073E06001F0A53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC10AF91C073E07001F0A53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC10AFA1C073E07001F0A53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC10B131C073E07001F0A53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECC10B141C073E07001F0A53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC10B161C073E07001F0A53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CorImageWrapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SFS.CorImageWrapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECC10B171C073E07001F0A53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CorImageWrapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SFS.CorImageWrapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECC10B191C073E07001F0A53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CorImageWrapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SFS.CorImageWrapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CorImageWrapper.app/CorImageWrapper";
+			};
+			name = Debug;
+		};
+		ECC10B1A1C073E07001F0A53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CorImageWrapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SFS.CorImageWrapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CorImageWrapper.app/CorImageWrapper";
+			};
+			name = Release;
+		};
+		ECC10B1C1C073E07001F0A53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CorImageWrapperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SFS.CorImageWrapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CorImageWrapper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ECC10B1D1C073E07001F0A53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CorImageWrapperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SFS.CorImageWrapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CorImageWrapper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC10AE81C073E06001F0A53 /* Build configuration list for PBXProject "CorImageWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC10B131C073E07001F0A53 /* Debug */,
+				ECC10B141C073E07001F0A53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC10B151C073E07001F0A53 /* Build configuration list for PBXNativeTarget "CorImageWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC10B161C073E07001F0A53 /* Debug */,
+				ECC10B171C073E07001F0A53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECC10B181C073E07001F0A53 /* Build configuration list for PBXNativeTarget "CorImageWrapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC10B191C073E07001F0A53 /* Debug */,
+				ECC10B1A1C073E07001F0A53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECC10B1B1C073E07001F0A53 /* Build configuration list for PBXNativeTarget "CorImageWrapperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC10B1C1C073E07001F0A53 /* Debug */,
+				ECC10B1D1C073E07001F0A53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC10AE51C073E06001F0A53 /* Project object */;
+}
