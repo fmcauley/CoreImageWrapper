@@ -14,6 +14,9 @@
 		ECC10AFB1C073E07001F0A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC10AF91C073E07001F0A53 /* LaunchScreen.storyboard */; };
 		ECC10B061C073E07001F0A53 /* CorImageWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC10B051C073E07001F0A53 /* CorImageWrapperTests.swift */; };
 		ECC10B111C073E07001F0A53 /* CorImageWrapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC10B101C073E07001F0A53 /* CorImageWrapperUITests.swift */; };
+		ECC10B1F1C073E27001F0A53 /* CoreImageWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC10B1E1C073E27001F0A53 /* CoreImageWrap.swift */; };
+		ECC10B201C073E27001F0A53 /* CoreImageWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC10B1E1C073E27001F0A53 /* CoreImageWrap.swift */; };
+		ECC10B221C07AD61001F0A53 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC10B211C07AD61001F0A53 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,8 @@
 		ECC10B0C1C073E07001F0A53 /* CorImageWrapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorImageWrapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC10B101C073E07001F0A53 /* CorImageWrapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorImageWrapperUITests.swift; sourceTree = "<group>"; };
 		ECC10B121C073E07001F0A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC10B1E1C073E27001F0A53 /* CoreImageWrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreImageWrap.swift; sourceTree = "<group>"; };
+		ECC10B211C07AD61001F0A53 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 		ECC10AE41C073E06001F0A53 = {
 			isa = PBXGroup;
 			children = (
+				ECC10B211C07AD61001F0A53 /* Media.xcassets */,
 				ECC10AEF1C073E06001F0A53 /* CorImageWrapper */,
 				ECC10B041C073E07001F0A53 /* CorImageWrapperTests */,
 				ECC10B0F1C073E07001F0A53 /* CorImageWrapperUITests */,
@@ -103,6 +109,7 @@
 				ECC10AF71C073E06001F0A53 /* Assets.xcassets */,
 				ECC10AF91C073E07001F0A53 /* LaunchScreen.storyboard */,
 				ECC10AFC1C073E07001F0A53 /* Info.plist */,
+				ECC10B1E1C073E27001F0A53 /* CoreImageWrap.swift */,
 			);
 			path = CorImageWrapper;
 			sourceTree = "<group>";
@@ -231,6 +238,7 @@
 			files = (
 				ECC10AFB1C073E07001F0A53 /* LaunchScreen.storyboard in Resources */,
 				ECC10AF81C073E06001F0A53 /* Assets.xcassets in Resources */,
+				ECC10B221C07AD61001F0A53 /* Media.xcassets in Resources */,
 				ECC10AF61C073E06001F0A53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +266,7 @@
 			files = (
 				ECC10AF31C073E06001F0A53 /* ViewController.swift in Sources */,
 				ECC10AF11C073E06001F0A53 /* AppDelegate.swift in Sources */,
+				ECC10B1F1C073E27001F0A53 /* CoreImageWrap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC10B201C073E27001F0A53 /* CoreImageWrap.swift in Sources */,
 				ECC10B061C073E07001F0A53 /* CorImageWrapperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
