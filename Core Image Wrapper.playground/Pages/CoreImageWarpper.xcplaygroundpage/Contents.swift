@@ -77,7 +77,7 @@ var image = CIImage(image: UIImage(named: "testImage.jpg")!)
 let blurRadius = 5.0
 let overlayColor = CIColor(red: 255, green: 0, blue: 0, alpha: 0.2)
 let blurredImage = blur(blurRadius)(image!)
-let overlaidImage = colorOverlay(overlayColor)(blurredImage)
+//let overlaidImage = colorOverlay(overlayColor)(blurredImage)
 //
 //
 //let myFilter = composeFilters(blur(blurRadius), filter2: colorOverlay(overlayColor))

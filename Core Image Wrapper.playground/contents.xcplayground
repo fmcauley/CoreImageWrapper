@@ -3,5 +3,6 @@
     <pages>
         <page name='CoreImageWarpper'/>
         <page name='Curring Values'/>
+        <page name='Map Filter Reduce'/>
     </pages>
 </playground>
