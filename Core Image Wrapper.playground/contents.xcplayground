@@ -4,5 +4,7 @@
         <page name='CoreImageWarpper'/>
         <page name='Curring Values'/>
         <page name='Map Filter Reduce'/>
+        <page name='Filter'/>
+        <page name='Reduce'/>
     </pages>
 </playground>
